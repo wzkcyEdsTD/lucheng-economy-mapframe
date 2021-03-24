@@ -38,7 +38,7 @@ window.getSpaceResults = () => {
  */
 window.getParamsInitMap = async params => {
   Vue.prototype.$params = params;
-  await auth_token("admin");
+  await auth_token("kcadmin");
   //  初始化地图
   window._vue_ = new Vue({
     router,
